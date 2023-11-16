@@ -1,0 +1,56 @@
+/* SERVICIOS SECCION A */
+
+.seccionAServicios {
+    background-color: #f1e4ff;
+}
+
+.tituloServicios {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+
+.contenedorTarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjetaServicio {
+    background-color: #c597fa;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.nombreServicio {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.imagenServicio {
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.verMas {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #8c30fe;
+    border-radius: 15px;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+
+    &:hover {
+        background-color: #9648f7;
+    }
+}
+
+/* FIN SERVICIOS SECCION A */

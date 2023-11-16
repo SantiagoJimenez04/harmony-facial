@@ -1,0 +1,54 @@
+/* SECCION D */
+
+.seccionD {
+  background-color: #ffffff;
+  display: flex;
+}
+
+.textoD {
+  background-color: #f1e4ff;
+  text-align: center;
+  padding: 3rem .9rem 3rem .9rem;
+  margin: 3.5rem 0 3.5rem 7rem;
+  display: inline;
+  width: 50%;
+}
+
+.descuentos {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: .9rem;
+  color: #2ec5ce;
+}
+
+.obten {
+  margin: 0 0 2rem 0;
+  line-height: 180%;
+  font-size: 1.1rem;
+}
+
+.agenda {
+  color: #ffffff;
+  background-color: #2ec5ce;
+  text-decoration: none;
+  border-radius: 30px;
+  display: inline-block;
+  padding: .6rem 1rem;
+  font-size: 1.2rem;
+
+  &:hover {
+    background-color: #0fcfdb;
+  }
+}
+
+.contenedorImagenD {
+  width: 50%;
+  margin: 3.5rem 7rem 3.5rem 0;
+}
+
+.imagenD {
+  width: 100%;
+  height: 100%;
+}
+
+/* FIN SECCION D */

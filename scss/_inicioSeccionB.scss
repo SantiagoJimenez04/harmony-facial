@@ -1,0 +1,50 @@
+/*SECCION B*/
+
+.seccionB {
+    background-color: #d5fafc;
+    display: flex;
+}
+
+.contenedorimagenB {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.imagenB {
+    object-fit: contain;
+    width: 35%;
+}
+
+.textoB {
+    width: 55%;
+    text-align: center;
+    padding: 1.8rem;
+}
+
+.porQue {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.enHarmony {
+    text-align: justify;
+    line-height: 180%;
+    padding: 0 3rem;
+}
+
+.visita {
+    color: #ffffff;
+    background-color: #c597fa;
+    padding: .6rem 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 30px;
+
+    &:hover {
+        background-color: #b782f5;
+    }
+}
+
+/*FIN SECCION B*/

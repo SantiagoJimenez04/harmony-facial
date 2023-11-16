@@ -1,0 +1,58 @@
+/**SeccionA**/
+
+.seccionA {
+  background-color: #f1e4ff;
+  display: flex;
+}
+
+.textoPrincipal {
+  text-align: justify;
+
+  /* padding: 30px; */
+  padding: 1.5rem 0 1.5rem 10rem;
+  width: 50%;
+
+}
+
+.descubre {
+  font-size: 3rem;
+  margin-bottom: 1.2rem;
+  font-weight: bold;
+}
+
+.nuestroCompro {
+  line-height: 180%;
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}
+
+.conoceMas {
+  color: #ffffff;
+  background-color: #2ec5ce;
+  padding: .7rem 1.2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 30px;
+  display: inline-block;
+
+  &:hover {
+    background-color: #0fcfdb;
+  }
+}
+
+.contenedorPortada {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin: 1rem 3.5rem 1rem 0;
+  justify-content: center;
+
+}
+
+.portada {
+  width: 50%;
+  object-fit: contain;
+  border-radius: 35px;
+}
+
+/* FIN SECCION A*/

@@ -1,0 +1,158 @@
+@media (max-width:900px) {
+
+    /* SECCION A */
+    .seccionA {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textoPrincipal {
+        width: 80%;
+        margin: 1.5rem 0 1.2rem 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    .nuestroCompro {
+        padding: 0;
+    }
+
+    .conoceMas {
+        padding: 10px 8px;
+    }
+
+    .contenedorPortada {
+        width: 70%;
+        margin: 0 20px 20px 20px;
+
+    }
+
+    /* FIN SECCION A */
+
+    /* SECCION B */
+
+    .contenedorimagenB {
+        display: none;
+    }
+
+    .textoB {
+        width: 100%;
+    }
+
+    /* FIN SECCION B */
+
+
+    /* SECCION D */
+
+    .seccionD {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textoD {
+        margin: 3rem 3rem 0 3rem;
+        width: 100%;
+    }
+
+    .obten {
+        margin-bottom: 1rem;
+    }
+
+    .contenedorImagenD {
+        width: 100%;
+        margin: 0 3rem 3rem 3rem;
+    }
+
+    /*  FIN SECCION D */
+
+    /* FOOTER */
+
+    .derechosLogos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    hr {
+        margin-bottom: .3rem;
+        margin-top: .3rem;
+
+    }
+
+    .barraNavegacionFooter ul {
+        margin-bottom: 0;
+        flex-wrap: wrap;
+    }
+
+    /* FIN FOOTER */
+
+    /* NOSOTROS - SECCION A */
+
+    .contenedorImagenNosotrosA {
+        display: none;
+    }
+
+    .textoNosotrosA {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nosDedicamos {
+        margin: 0;
+    }
+
+    .nosotrosSeccionB {
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .misionVision {
+        width: 100%;
+        margin: 3rem;
+    }
+
+    .margenInternoMision {
+        margin-bottom: 1rem;
+    }
+
+    .margenInternoVision {
+        margin-top: 1rem;
+    }
+
+
+    /* SERVICIOS SECCION A */
+
+    .contenedorTarjetas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tarjetaServicio {
+        width: 70%;
+    }
+
+    /* FIN SERVICIOS SECCION A */
+
+
+    /* GALERIA SECCION B */
+
+    .seccionBGaleria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedorTarjetaGaleria {
+        width: 80%;
+    }
+
+    .videoYoutube {
+        width: 80%;
+    }
+
+
+
+}

@@ -1,0 +1,55 @@
+/** ENCABEZADO**/
+
+header {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px 30px;
+    margin: 0 3rem 0 5rem;
+    /* No esta funcionando el position:sticky */
+    position: sticky;
+    top: 0;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1rem;
+}
+
+.textoGrande {
+    font-size: 1.4rem;
+    color: #8c30fe;
+}
+
+.textoPequeno {
+    font-size: 1rem;
+    color: #8c30fe;
+}
+
+.barraNav ul,
+li {
+    padding: 0 10px 0 10px;
+}
+
+.barraNav ul li {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #8c30fe;
+}
+
+.logoRedes {
+    width: 30px;
+}
+
+.colorItem {
+    color: #8c30fe;
+
+    &:hover {
+        background-color: #f1e4ff;
+        color: #8c30fe;
+        border-radius: 10px;
+    }
+}
+
+/** FIN ENCABEZADO**/

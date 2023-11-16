@@ -1,0 +1,56 @@
+/* GALERIA  SECCION A */
+
+.fondoGaleria {
+    background-color: #f1e4ff;
+}
+
+.tituloGaleria {
+    color: black;
+    text-align: start;
+    font-weight: bold;
+    padding: 2rem 6rem;
+}
+
+.seccionAGaleria {
+    text-align: center;
+}
+
+.descubreQueEs {
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.seccionBGaleria {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.contenedorTarjetaGaleria {
+    width: 30%;
+    margin: 1rem;
+}
+
+.contenedorImagenGaleria {
+    background-color: #c597fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    border-radius: 15px;
+}
+
+.imagenGaleria {
+    width: 100%;
+    height: 80%;
+}
+
+.tituloTarjetaGaleria {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.descripcionGaleria {
+    text-align: center;
+}
