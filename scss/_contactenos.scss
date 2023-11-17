@@ -1,0 +1,58 @@
+.contactenos {
+    background-color: #f1eaff;
+    padding: 5rem;
+    padding-top: 3rem;
+
+    display: grid;
+    grid-template-areas:
+        "textoContactenos mapa"
+        "form form"
+    ;
+}
+
+h1,
+h2,
+h3,
+label {
+    font-weight: bold;
+}
+
+.textoContactenos {
+    display: inline-block;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+
+
+    label {
+        padding: 0.2rem 0;
+    }
+
+    input,
+    textarea {
+        border-radius: 5px;
+        border: none;
+        
+    }
+
+    .botones {
+        display: flex;
+        justify-content: end;
+
+        .enviar {
+            margin-right: 1rem;
+        } 
+
+        .btnFormulario {
+            background-color: #8c30f5;
+            color: white;      
+            margin-top: 1rem;
+            padding: 0.5rem 0.5rem;
+        }
+    }
+
+}

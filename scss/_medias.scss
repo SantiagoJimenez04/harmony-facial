@@ -1,5 +1,10 @@
 @media (max-width:900px) {
 
+    /*ENCABEZADO*/
+    .logosRedes {
+        display: none;
+    }
+
     /* SECCION A */
     .seccionA {
         flex-wrap: wrap;
@@ -99,10 +104,32 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        background-image: url(../img-harmony/logos/logo-harmony.jpeg);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+
+        &::before {
+            content: "";
+            background-color: rgba(255, 255, 255, 0.9);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+    }
+
+    .somosParte {
+        z-index: 2;
     }
 
     .nosDedicamos {
         margin: 0;
+        z-index: 2;
     }
 
     .nosotrosSeccionB {
@@ -138,6 +165,17 @@
     /* FIN SERVICIOS SECCION A */
 
 
+    /*GALERIA SECCION A */
+    .descubreQueEs {
+        margin: 0 2rem;
+
+    }
+
+    .videoYoutube {
+        width: 80%;
+    }
+
+
     /* GALERIA SECCION B */
 
     .seccionBGaleria {
@@ -149,9 +187,29 @@
         width: 80%;
     }
 
-    .videoYoutube {
-        width: 80%;
+    /*CONTACTENOS*/
+    .contactenos {
+        
+        grid-template-areas:
+            "textoContactenos"
+            "mapa"
+            "form"
+        ;
     }
+    iframe {
+        margin-top: 1rem;
+        width: 100%;
+        align-items: center;
+    }
+    form {
+        width: 100%;     
+    
+    }
+
+   
+
+   
+
 
 
 
