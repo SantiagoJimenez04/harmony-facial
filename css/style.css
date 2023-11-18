@@ -484,6 +484,7 @@ label {
 
 .textoContactenos {
   display: inline-block;
+  width: 90%;
 }
 
 form {
@@ -663,6 +664,24 @@ form .botones .btnFormulario {
   }
   form {
     width: 100%;
+  }
+}
+@media (max-width: 470px) {
+  .contactenos {
+    padding: 1.4rem;
+  }
+  iframe {
+    width: 250px;
+    height: 250px;
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+  }
+  .correo {
+    font-size: 0.85rem;
+  }
+  header {
+    margin-right: 1rem;
+    margin-left: 1rem;
   }
 }
 
