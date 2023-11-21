@@ -411,6 +411,34 @@ hr {
 }
 
 /* FIN SERVICIOS SECCION A */
+.contenedor3servicios {
+  background-color: #f1e4ff;
+  padding: 2rem 5rem;
+  display: flex;
+}
+.contenedor3servicios .carrusel {
+  width: 55%;
+}
+.contenedor3servicios .descripcionCarrusel {
+  width: 45%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+}
+.contenedor3servicios .descripcionCarrusel .precio {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+.contenedor3servicios .descripcionCarrusel .informacion {
+  margin-bottom: 1rem;
+}
+.contenedor3servicios .descripcionCarrusel .descripcionServicio {
+  text-align: justify;
+}
+
 /* GALERIA  SECCION A */
 .fondoGaleria {
   background-color: #f1e4ff;
@@ -665,23 +693,67 @@ form .botones .btnFormulario {
   form {
     width: 100%;
   }
+  /*AUMENTO LABIOS / RINOMODELACION / RELLENO LINEAS*/
+  .contenedor3servicios {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor3servicios .carrusel {
+    width: 100%;
+  }
+  .contenedor3servicios .descripcionCarrusel {
+    width: 100%;
+    padding-left: 0;
+  }
 }
 @media (max-width: 470px) {
+  /*CONTACTENOS*/
   .contactenos {
     padding: 1.4rem;
   }
+  form {
+    width: 90%;
+  }
   iframe {
-    width: 250px;
+    width: 90%;
     height: 250px;
     margin-right: 1rem;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   }
   .correo {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
   }
+  /*HEADER*/
   header {
     margin-right: 1rem;
     margin-left: 1rem;
+  }
+  /*FOOTER*/
+  .barraNavegacionFooter ul {
+    padding: 0;
+    margin: 0;
+    font-size: 0.1rem;
+  }
+  .derechosLogos {
+    padding: 0 1rem;
+    margin: 0;
+  }
+  /*AUMENTO LABIOS / RINOMODELACION / RELLENO LINEAS*/
+  .contenedor3servicios {
+    padding: 2rem;
+  }
+}
+@media (max-width: 300px) {
+  .correo {
+    font-size: 0.6rem;
+  }
+  .botones {
+    flex-direction: column;
+    width: 80%;
+  }
+  iframe {
+    width: 70%;
   }
 }
 

@@ -1,0 +1,45 @@
+.contenedor3servicios {
+    background-color: #f1e4ff;
+    padding: 2rem 5rem;
+    display: flex;
+
+
+    .carrusel {
+        width: 55%;
+    }
+
+    .descripcionCarrusel {
+        width: 45%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2rem;
+
+
+        .precio {
+            font-weight: bold;
+            margin: 1rem 0;
+        }
+
+        .informacion {        
+            margin-bottom: 1rem;          
+        }
+          
+
+        .descripcionServicio {
+            text-align: justify;
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+}
