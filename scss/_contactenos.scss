@@ -2,7 +2,6 @@
     background-color: #f1eaff;
     padding: 5rem;
     padding-top: 3rem;
-
     display: grid;
     grid-template-areas:
         "textoContactenos mapa"
@@ -10,12 +9,7 @@
     ;
 }
 
-h1,
-h2,
-h3,
-label {
-    font-weight: bold;
-}
+
 
 .textoContactenos {
     display: inline-block;

@@ -7,7 +7,6 @@
 .tituloGaleria {
     color: black;
     text-align: start;
-    font-weight: bold;
     padding: 2rem 6rem;
 }
 
@@ -16,7 +15,6 @@
 }
 
 .descubreQueEs {
-    font-weight: bold;
     padding-bottom: 1rem;
 }
 
@@ -33,9 +31,7 @@
 
 .contenedorImagenGaleria {
     background-color: #c597fa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include displayFlexCenter;
     height: 70%;
     border-radius: 15px;
 }
@@ -46,7 +42,6 @@
 }
 
 .tituloTarjetaGaleria {
-    font-weight: bold;
     text-align: center;
     padding-top: 0.5rem;
 }

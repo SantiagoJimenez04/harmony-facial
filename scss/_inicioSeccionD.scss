@@ -12,11 +12,10 @@
   margin: 3.5rem 0 3.5rem 7rem;
   display: inline;
   width: 50%;
+  @include displayFlexCenter;
 }
 
 .descuentos {
-  font-size: 1.8rem;
-  font-weight: bold;
   margin-bottom: .9rem;
   color: #2ec5ce;
 }
@@ -34,7 +33,6 @@
   border-radius: 30px;
   display: inline-block;
   padding: .6rem 1rem;
-  font-size: 1.2rem;
 
   &:hover {
     background-color: #0fcfdb;

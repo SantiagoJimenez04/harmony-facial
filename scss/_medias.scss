@@ -13,7 +13,7 @@
     }
 
     .textoPrincipal {
-        width: 80%;
+        width: 90%;
         margin: 1.5rem 0 1.2rem 0;
         text-align: center;
         padding: 0;
@@ -28,7 +28,7 @@
     }
 
     .contenedorPortada {
-        width: 70%;
+        width: 100%;
         margin: 0 20px 20px 20px;
 
     }
@@ -43,6 +43,16 @@
 
     .textoB {
         width: 100%;
+        margin: 1.5rem 1rem 1.2rem 1rem;
+        text-align: center;
+        padding: 0;
+        
+        
+
+    }
+    .enHarmony {
+        padding: 0;
+        text-align: center;
     }
 
     /* FIN SECCION B */
@@ -57,7 +67,8 @@
     }
 
     .textoD {
-        margin: 3rem 3rem 0 3rem;
+        margin: 2rem 2rem 0 2rem;
+        padding: 1rem;
         width: 100%;
     }
 
@@ -67,7 +78,7 @@
 
     .contenedorImagenD {
         width: 100%;
-        margin: 0 3rem 3rem 3rem;
+        margin: 0 2rem 2rem 2rem;
     }
 
     /*  FIN SECCION D */
@@ -100,10 +111,10 @@
 
     .textoNosotrosA {
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        margin: 0 2rem;
+        padding: 0;
+        @include displayFlexCenter;
+        
         background-image: url(../img-harmony/logos/logo-harmony.jpeg);
         background-size: 70%;
         background-repeat: no-repeat;
@@ -128,8 +139,9 @@
     }
 
     .nosDedicamos {
-        margin: 0;
+      
         z-index: 2;
+        
     }
 
     .nosotrosSeccionB {
@@ -139,7 +151,7 @@
 
     .misionVision {
         width: 100%;
-        margin: 3rem;
+        margin: 1rem;
     }
 
     .margenInternoMision {
@@ -159,7 +171,7 @@
     }
 
     .tarjetaServicio {
-        width: 70%;
+        width: 80%;
     }
 
     /* FIN SERVICIOS SECCION A */
@@ -286,6 +298,26 @@
         padding: 2rem ;
     }
 
+    /*DISMINUCION TAMAÑO DE LETRAS*/
+
+    h1 {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    a {
+        font-size: .8rem;
+    }
 
 
 

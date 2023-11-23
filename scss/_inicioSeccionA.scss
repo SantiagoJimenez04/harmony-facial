@@ -7,17 +7,15 @@
 
 .textoPrincipal {
   text-align: justify;
-
-  /* padding: 30px; */
+  @include displayFlexCenter;
   padding: 1.5rem 0 1.5rem 10rem;
   width: 50%;
 
 }
 
 .descubre {
-  font-size: 3rem;
   margin-bottom: 1.2rem;
-  font-weight: bold;
+  
 }
 
 .nuestroCompro {
@@ -30,7 +28,6 @@
   color: #ffffff;
   background-color: #2ec5ce;
   padding: .7rem 1.2rem;
-  font-size: 1.2rem;
   text-decoration: none;
   border-radius: 30px;
   display: inline-block;
