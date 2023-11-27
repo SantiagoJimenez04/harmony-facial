@@ -79,7 +79,6 @@ li {
 .colorItem {
   color: #8c30fe;
 }
-
 .colorItem:hover {
   background-color: #f1e4ff;
   color: #8c30fe;
@@ -121,7 +120,6 @@ li {
   border-radius: 30px;
   display: inline-block;
 }
-
 .conoceMas:hover {
   background-color: #0fcfdb;
 }
@@ -137,7 +135,7 @@ li {
 .portada {
   width: 50%;
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
   border-radius: 35px;
 }
 
@@ -157,7 +155,7 @@ li {
 
 .imagenB {
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
   width: 35%;
 }
 
@@ -184,7 +182,6 @@ li {
   text-decoration: none;
   border-radius: 30px;
 }
-
 .visita:hover {
   background-color: #b782f5;
 }
@@ -228,7 +225,6 @@ li {
   display: inline-block;
   padding: 0.6rem 1rem;
 }
-
 .agenda:hover {
   background-color: #0fcfdb;
 }
@@ -436,7 +432,6 @@ hr {
   margin: 1rem 0;
   padding: 0.5rem 1rem;
 }
-
 .verMas:hover {
   background-color: #9648f7;
 }
@@ -447,11 +442,9 @@ hr {
   padding: 2rem 5rem;
   display: flex;
 }
-
 .contenedor3servicios .carrusel {
   width: 55%;
 }
-
 .contenedor3servicios .descripcionCarrusel {
   width: 45%;
   text-align: center;
@@ -461,16 +454,13 @@ hr {
   align-items: center;
   padding-left: 2rem;
 }
-
 .contenedor3servicios .descripcionCarrusel .precio {
   font-weight: bold;
   margin: 1rem 0;
 }
-
 .contenedor3servicios .descripcionCarrusel .informacion {
   margin-bottom: 1rem;
 }
-
 .contenedor3servicios .descripcionCarrusel .descripcionServicio {
   text-align: justify;
 }
@@ -547,26 +537,21 @@ form {
   flex-direction: column;
   margin-top: 3rem;
 }
-
 form label {
   padding: 0.2rem 0;
 }
-
 form input,
 form textarea {
   border-radius: 5px;
   border: none;
 }
-
 form .botones {
   display: flex;
   justify-content: end;
 }
-
 form .botones .enviar {
   margin-right: 1rem;
 }
-
 form .botones .btnFormulario {
   background-color: #8c30f5;
   color: white;
@@ -816,6 +801,4 @@ form .botones .btnFormulario {
   iframe {
     width: 70%;
   }
-} 
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

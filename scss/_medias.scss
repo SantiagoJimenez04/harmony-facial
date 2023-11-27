@@ -1,7 +1,7 @@
 @media (max-width:900px) {
 
     /*ENCABEZADO*/
-    .logosRedes {
+    .logosRedesHeader  {
         display: none;
     }
 
@@ -21,6 +21,7 @@
 
     .nuestroCompro {
         padding: 0;
+        text-align: justify;
     }
 
     .conoceMas {
@@ -45,14 +46,13 @@
         width: 100%;
         margin: 1.5rem 1rem 1.2rem 1rem;
         text-align: center;
-        padding: 0;
-        
+        padding: 0;     
         
 
     }
     .enHarmony {
         padding: 0;
-        text-align: center;
+        text-align: justify;
     }
 
     /* FIN SECCION B */
@@ -99,6 +99,9 @@
     .barraNavegacionFooter ul {
         margin-bottom: 0;
         flex-wrap: wrap;
+    }
+    .logosRedesFooter {
+        margin-bottom: .5rem;
     }
 
     /* FIN FOOTER */
