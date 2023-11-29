@@ -12,8 +12,9 @@
 
 
 .textoContactenos {
-    display: inline-block;
-    width: 90%;
+    width: 75%;
+    @include displayFlexCenter;
+    align-items: start;
 
 }
 
@@ -47,6 +48,13 @@ form {
             color: white;      
             margin-top: 1rem;
             padding: 0.5rem 0.5rem;
+            transition: transform 0.3s;
+
+            &:hover {
+                transform: scale(1.07);  
+                background-color: #700BE3;
+
+            }
         }
     }
 

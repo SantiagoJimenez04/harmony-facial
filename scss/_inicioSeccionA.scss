@@ -15,7 +15,7 @@
 
 .descubre {
   margin-bottom: 1.2rem;
-  
+
 }
 
 .nuestroCompro {
@@ -32,8 +32,13 @@
   border-radius: 30px;
   display: inline-block;
 
+  transition: transform 0.3s; /* Cambié "all" por "transform" para enfocarnos en la propiedad que vamos a cambiar */
+
+
   &:hover {
     background-color: #0fcfdb;
+    transform: scale(1.1);
+  
   }
 }
 

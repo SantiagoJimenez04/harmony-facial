@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio - Harmony Facial</title>
-    <meta name="description" content="
+    <meta name="description"
+        content="
     Experimenta el máximo cuidado para tu rostro con los tratamientos especializados de Harmony Facial, donde te ofrecemos los servicios más destacados y personalizados.">
 
-
+    <!-- CSS con AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- CSS con BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -25,8 +27,8 @@
 
     <header class="navbar navbar-expand-lg">
 
-        <div class="container-fluid tituloPrincipal">
-            <a class="navbar-brand" href="index.html">
+        <div class="container-fluid ">
+            <a class="navbar-brand tituloPrincipal" href="index.html">
                 <span class="textoGrande"> Harmony Facial </span>
                 <br>
                 <span class="textoPequeno"> Medicina Estetica </span></a>
@@ -103,7 +105,7 @@
             <a class="conoceMas" href="html/nuestros-servicios.html"> Conoce más sobre nuestros tratamientos</a>
         </div>
 
-        <div class="contenedorPortada">
+        <div data-aos="zoom-in" data-aos-duration="2000" class="contenedorPortada">
             <img class="portada" src="img-harmony/principal/portada.jpg" alt="imagen aplicación botox acido">
         </div>
 
@@ -115,7 +117,8 @@
     <div class="seccionB">
 
         <div class="contenedorimagenB">
-            <img class="imagenB" src="img-harmony/principal/mujer-principal.png" alt="imagen mujer sonriendo harmony facial">
+            <img class="imagenB" src="img-harmony/principal/mujer-principal.png"
+                alt="imagen mujer sonriendo harmony facial">
         </div>
 
         <div class="textoB">
@@ -146,7 +149,7 @@
 
     <!-- SECCION D -->
 
-    <div class="seccionD">
+    <div data-aos="zoom-in" data-aos-duration="2000" class="seccionD">
 
         <div class="textoD">
             <h3 class="descuentos">Descuentos hasta del 20%</h3>
@@ -214,18 +217,16 @@
 
     </footer>
 
+    <!--JS AOS Libreria Animaciones  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
-
+    <!-- JS BOOSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-
-    <script>
-        // Evento de clic para redirigir cuando se hace clic en "Nuestros Servicios"
-        document.getElementById('nuestrosServiciosLink').addEventListener('click', function () {
-            window.location.href = 'html/nuestros-servicios.html';
-        });
-    </script>
 </body>
 
 </html>

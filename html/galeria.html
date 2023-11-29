@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria - Harmony Facial</title>
-    <meta name="description" content="Descubre qué es el Ácido Hialuronico y cúales son sus beneficios, además conoce nuestro equipo de trabajo, la tecnología que usamos y los testimonios de nuestros clientes">
+    <meta name="description"
+        content="Descubre qué es el Ácido Hialuronico y cúales son sus beneficios, además conoce nuestro equipo de trabajo, la tecnología que usamos y los testimonios de nuestros clientes">
+    <!-- CSS con AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- CSS con BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-
+    <!-- MI CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -19,8 +23,8 @@
     <!-- HEADER -->
     <header class="navbar navbar-expand-lg">
 
-        <div class="container-fluid tituloPrincipal">
-            <a class="navbar-brand" href="../index.html">
+        <div class="container-fluid">
+            <a class="navbar-brand tituloPrincipal" href="../index.html">
                 <span class="textoGrande"> Harmony Facial </span>
                 <br>
                 <span class="textoPequeno"> Medicina Estetica </span></a>
@@ -64,7 +68,7 @@
                 </ul>
             </nav>
 
-            <nav class="logosRedes">
+            <nav class="logosRedes logosRedesHeader">
 
                 <a href="https://www.instagram.com/harmonyfacial/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank"><img
                         class="logoRedes" src="../img-harmony/logos/insta.png" alt="Logo Instagra Harmony Facial"></a>
@@ -89,8 +93,9 @@
 
         <div class="seccionAGaleria">
             <h2 class="descubreQueEs">Descubre qué es el Ácido Hialuronico y cúales son sus beneficios</h2>
-            <iframe class="videoYoutube" width="560" height="315" src="https://www.youtube.com/embed/vV3KxFOx1-o?si=xqMZ4xkZaMT4Yfg0"
-                title="YouTube video player" frameborder="0"
+            <iframe class="videoYoutube" width="560" height="315"
+                src="https://www.youtube.com/embed/vV3KxFOx1-o?si=xqMZ4xkZaMT4Yfg0" title="YouTube video player"
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen>
             </iframe>
@@ -99,28 +104,35 @@
         <div class="seccionBGaleria">
             <div class="contenedorTarjetaGaleria">
                 <div class="contenedorImagenGaleria">
-                    <img class="imagenGaleria" src="../img-harmony/galeria/equipo-medico.jpg" alt="equipo medico de harmony facial">
+                    <img data-aos="zoom-in" data-aos-duration="2000" class="imagenGaleria"
+                        src="../img-harmony/galeria/equipo-medico.jpg" alt="equipo medico de harmony facial">
                 </div>
                 <h3 class="tituloTarjetaGaleria">Nuestro equipo</h3>
-                <p class="descripcionGaleria">Conoce a nuestro equipo de expertos altamente capacitados, listos para proporcionarte una atención
+                <p class="descripcionGaleria">Conoce a nuestro equipo de expertos altamente capacitados, listos para
+                    proporcionarte una atención
                     excepcional.</p>
             </div>
 
             <div class="contenedorTarjetaGaleria">
                 <div class="contenedorImagenGaleria">
-                    <img class="imagenGaleria" src="../img-harmony/galeria/tecnologia.jpg" alt="tecnologia utilizada en Harmony facial para la aplicacion de botox">
+                    <img data-aos="zoom-in" data-aos-duration="2000" class="imagenGaleria"
+                        src="../img-harmony/galeria/tecnologia.jpg"
+                        alt="tecnologia utilizada en Harmony facial para la aplicacion de botox">
                 </div>
                 <h3 class="tituloTarjetaGaleria">Tecnología avanzada</h3>
-                <p class="descripcionGaleria">Nos enorgullece contar con tecnología de vanguardia y una amplia experiencia en la industria de la
+                <p class="descripcionGaleria">Nos enorgullece contar con tecnología de vanguardia y una amplia
+                    experiencia en la industria de la
                     belleza y estética.</p>
             </div>
 
             <div class="contenedorTarjetaGaleria">
                 <div class="contenedorImagenGaleria">
-                    <img class="imagenGaleria" src="../img-harmony/galeria/testimonios.png" alt="testimonios de nuestros clientes">
+                    <img data-aos="zoom-in" data-aos-duration="2000" class="imagenGaleria"
+                        src="../img-harmony/galeria/testimonios.png" alt="testimonios de nuestros clientes">
                 </div>
                 <h3 class="tituloTarjetaGaleria">Testimonios</h3>
-                <p class="descripcionGaleria">Observa el impactante cambio antes y después de una de nuestras rinomodelaciones.</p>
+                <p class="descripcionGaleria">Observa el impactante cambio antes y después de una de nuestras
+                    rinomodelaciones.</p>
             </div>
 
         </div>
@@ -183,6 +195,13 @@
 
 
 
+    <!--JS AOS Libreria Animaciones  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- JS BOOSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>

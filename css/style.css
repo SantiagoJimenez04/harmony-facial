@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
+  /* border: 1px solid red;*/
 }
 
 body {
@@ -49,11 +49,17 @@ header {
   font-weight: bold;
   text-decoration: none;
   line-height: 1rem;
+  transition: transform 0.3s;
+}
+.tituloPrincipal:hover {
+  transform: scale(1.05);
 }
 
 .textoGrande {
   font-size: 1.4rem;
   color: #8c30fe;
+  display: inline-block;
+  transition: transform 0.3s;
 }
 
 .textoPequeno {
@@ -63,13 +69,22 @@ header {
 
 .barraNav ul,
 li {
-  padding: 0 10px 0 10px;
+  padding: 0 0.5rem;
+  font-weight: bold;
 }
 
-.barraNav ul li {
+.barraNav ul li .colorItem {
   text-transform: uppercase;
   font-size: 1rem;
   color: #8c30fe;
+  transition: transform 0.3s;
+}
+.barraNav ul li .colorItem:hover {
+  transform: scale(1.05);
+}
+
+.dropdown-item {
+  padding: 0.7rem 0;
 }
 
 .logoRedes {
@@ -79,7 +94,6 @@ li {
 .colorItem {
   color: #8c30fe;
 }
-
 .colorItem:hover {
   background-color: #f1e4ff;
   color: #8c30fe;
@@ -120,10 +134,11 @@ li {
   text-decoration: none;
   border-radius: 30px;
   display: inline-block;
+  transition: transform 0.3s; /* Cambié "all" por "transform" para enfocarnos en la propiedad que vamos a cambiar */
 }
-
 .conoceMas:hover {
   background-color: #0fcfdb;
+  transform: scale(1.1);
 }
 
 .contenedorPortada {
@@ -136,7 +151,6 @@ li {
 
 .portada {
   width: 50%;
-  -o-object-fit: contain;
   object-fit: contain;
   border-radius: 35px;
 }
@@ -156,7 +170,6 @@ li {
 }
 
 .imagenB {
-  -o-object-fit: contain;
   object-fit: contain;
   width: 35%;
 }
@@ -183,10 +196,11 @@ li {
   padding: 0.6rem 1rem;
   text-decoration: none;
   border-radius: 30px;
+  transition: transform 0.3s;
 }
-
 .visita:hover {
   background-color: #b782f5;
+  transform: scale(1.1);
 }
 
 /*FIN SECCION B*/
@@ -227,10 +241,11 @@ li {
   border-radius: 30px;
   display: inline-block;
   padding: 0.6rem 1rem;
+  transition: transform 0.3s;
 }
-
 .agenda:hover {
   background-color: #0fcfdb;
+  transform: scale(1.1);
 }
 
 .contenedorImagenD {
@@ -263,7 +278,6 @@ footer {
 
 .logoFooter {
   width: 100%;
-  height: 100;
 }
 
 .tituloFooter {
@@ -290,6 +304,15 @@ footer {
   text-transform: uppercase;
   color: #ffffff;
   font-size: 0.7rem;
+  padding: 0.5rem 0.3rem;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+.barraNavF:hover {
+  color: black;
+  background-color: #ffffff;
+  border-radius: 10px;
+  transform: scale(1.1);
 }
 
 hr {
@@ -306,6 +329,7 @@ hr {
 .derechos {
   color: #ffffff;
   text-align: center;
+  font-size: 1rem;
 }
 
 /*  FIN FOOTER */
@@ -325,10 +349,11 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 3rem 0;
 }
 
 .imagenNosotrosA {
-  width: 75%;
+  width: 65%;
 }
 
 .textoNosotrosA {
@@ -355,7 +380,8 @@ hr {
 /* FIN NOSOTROS SECCION A  */
 /* NOSOTROS SECCION B */
 .nosotrosSeccionB {
-  background-color: #c597fa;
+  background: #DFC4FE;
+  background: linear-gradient(180deg, #DFC4FE, #627EFF);
   display: flex;
 }
 
@@ -435,10 +461,11 @@ hr {
   border-radius: 15px;
   margin: 1rem 0;
   padding: 0.5rem 1rem;
+  transition: transform 0.3s;
 }
-
 .verMas:hover {
   background-color: #9648f7;
+  transform: scale(1.1);
 }
 
 /* FIN SERVICIOS SECCION A */
@@ -447,11 +474,9 @@ hr {
   padding: 2rem 5rem;
   display: flex;
 }
-
 .contenedor3servicios .carrusel {
   width: 55%;
 }
-
 .contenedor3servicios .descripcionCarrusel {
   width: 45%;
   text-align: center;
@@ -461,16 +486,13 @@ hr {
   align-items: center;
   padding-left: 2rem;
 }
-
 .contenedor3servicios .descripcionCarrusel .precio {
   font-weight: bold;
   margin: 1rem 0;
 }
-
 .contenedor3servicios .descripcionCarrusel .informacion {
   margin-bottom: 1rem;
 }
-
 .contenedor3servicios .descripcionCarrusel .descripcionServicio {
   text-align: justify;
 }
@@ -538,8 +560,12 @@ hr {
 }
 
 .textoContactenos {
-  display: inline-block;
-  width: 90%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: start;
 }
 
 form {
@@ -547,31 +573,31 @@ form {
   flex-direction: column;
   margin-top: 3rem;
 }
-
 form label {
   padding: 0.2rem 0;
 }
-
 form input,
 form textarea {
   border-radius: 5px;
   border: none;
 }
-
 form .botones {
   display: flex;
   justify-content: end;
 }
-
 form .botones .enviar {
   margin-right: 1rem;
 }
-
 form .botones .btnFormulario {
   background-color: #8c30f5;
   color: white;
   margin-top: 1rem;
   padding: 0.5rem 0.5rem;
+  transition: transform 0.3s;
+}
+form .botones .btnFormulario:hover {
+  transform: scale(1.07);
+  background-color: #700BE3;
 }
 
 @media (max-width: 900px) {
@@ -758,13 +784,18 @@ form .botones .btnFormulario {
     padding: 1.4rem;
   }
   form {
-    width: 90%;
+    width: 75%;
+  }
+  .mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
   }
   iframe {
-    width: 90%;
+    width: 100%;
     height: 250px;
-    margin-right: 1rem;
-    margin-left: 1rem;
   }
   .correo {
     font-size: 0.75rem;
@@ -783,6 +814,9 @@ form .botones .btnFormulario {
   .derechosLogos {
     padding: 0 1rem;
     margin: 0;
+  }
+  .derechos {
+    font-size: 0.8rem;
   }
   /*AUMENTO LABIOS / RINOMODELACION / RELLENO LINEAS*/
   .contenedor3servicios {
@@ -816,6 +850,6 @@ form .botones .btnFormulario {
   iframe {
     width: 70%;
   }
-} 
+}
 
 /*# sourceMappingURL=style.css.map */

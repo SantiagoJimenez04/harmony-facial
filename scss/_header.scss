@@ -15,27 +15,50 @@ header {
     font-weight: bold;
     text-decoration: none;
     line-height: 1rem;
+
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+    
 }
 
 .textoGrande {
     font-size: 1.4rem;
     color: #8c30fe;
+    display: inline-block;
+    transition: transform 0.3s;
+
 }
 
 .textoPequeno {
     font-size: 1rem;
     color: #8c30fe;
+
 }
 
 .barraNav ul,
 li {
-    padding: 0 10px 0 10px;
+    padding: 0 0.5rem;
+    font-weight: bold;
 }
 
-.barraNav ul li {
+.barraNav ul li .colorItem{
     text-transform: uppercase;
     font-size: 1rem;
     color: #8c30fe;
+
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+}
+
+.dropdown-item {
+    padding: .7rem 0;
 }
 
 .logoRedes {
