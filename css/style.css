@@ -42,6 +42,7 @@ header {
   /* No esta funcionando el position:sticky */
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 .tituloPrincipal {
@@ -84,7 +85,9 @@ li {
 }
 
 .dropdown-item {
-  padding: 0.7rem 0;
+  padding: 0.5rem 0;
+  padding-left: 0.9rem;
+  margin: 0.7rem;
 }
 
 .logoRedes {
@@ -141,6 +144,11 @@ li {
   transform: scale(1.1);
 }
 
+.seccionA {
+  background-color: #f1e4ff;
+  display: flex;
+}
+
 .contenedorPortada {
   width: 50%;
   display: flex;
@@ -148,8 +156,7 @@ li {
   margin: 1rem 3.5rem 1rem 0;
   justify-content: center;
 }
-
-.portada {
+.contenedorPortada .portada {
   width: 50%;
   object-fit: contain;
   border-radius: 35px;
@@ -171,7 +178,7 @@ li {
 
 .imagenB {
   object-fit: contain;
-  width: 35%;
+  width: 90%;
 }
 
 .textoB {

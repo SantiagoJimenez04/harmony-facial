@@ -8,6 +8,7 @@ header {
     /* No esta funcionando el position:sticky */
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 .tituloPrincipal {
@@ -58,7 +59,9 @@ li {
 }
 
 .dropdown-item {
-    padding: .7rem 0;
+    padding: .5rem 0;
+    padding-left: .9rem;
+    margin: .7rem;
 }
 
 .logoRedes {
